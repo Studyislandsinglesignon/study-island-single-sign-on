@@ -91,116 +91,9 @@
     --gradient-surface: linear-gradient(135deg, #1e293b 0%, #334155 100%);
 }
 
-body.theme-ocean {
-    --primary: #3b82f6; --primary-hover: #60a5fa;
-    --primary-light: rgba(59,130,246,0.15); --primary-lighter: rgba(59,130,246,0.08);
-    --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
-    --shadow-glow: 0 0 20px rgba(59,130,246,0.4);
-}
-body.theme-emerald {
-    --primary: #10b981; --primary-hover: #34d399;
-    --primary-light: rgba(16,185,129,0.15); --primary-lighter: rgba(16,185,129,0.08);
-    --gradient-primary: linear-gradient(135deg, #10b981 0%, #34d399 100%);
-    --shadow-glow: 0 0 20px rgba(16,185,129,0.4);
-}
-body.theme-violet {
-    --primary: #8b5cf6; --primary-hover: #a78bfa;
-    --primary-light: rgba(139,92,246,0.15); --primary-lighter: rgba(139,92,246,0.08);
-    --gradient-primary: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
-    --shadow-glow: 0 0 20px rgba(139,92,246,0.4);
-}
-body.theme-sunset {
-    --primary: #f97316; --primary-hover: #fb923c;
-    --primary-light: rgba(249,115,22,0.15); --primary-lighter: rgba(249,115,22,0.08);
-    --gradient-primary: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
-    --shadow-glow: 0 0 20px rgba(249,115,22,0.4);
-}
-body.theme-rose {
-    --primary: #ec4899; --primary-hover: #f472b6;
-    --primary-light: rgba(236,72,153,0.15); --primary-lighter: rgba(236,72,153,0.08);
-    --gradient-primary: linear-gradient(135deg, #ec4899 0%, #f472b6 100%);
-    --shadow-glow: 0 0 20px rgba(236,72,153,0.4);
-}
-body.theme-cyan {
-    --primary: #06b6d4; --primary-hover: #22d3ee;
-    --primary-light: rgba(6,182,212,0.15); --primary-lighter: rgba(6,182,212,0.08);
-    --gradient-primary: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%);
-    --shadow-glow: 0 0 20px rgba(6,182,212,0.4);
-}
-body.theme-amber {
-    --primary: #f59e0b; --primary-hover: #fbbf24;
-    --primary-light: rgba(245,158,11,0.15); --primary-lighter: rgba(245,158,11,0.08);
-    --gradient-primary: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
-    --shadow-glow: 0 0 20px rgba(245,158,11,0.4);
-}
-body.theme-red {
-    --primary: #ef4444; --primary-hover: #f87171;
-    --primary-light: rgba(239,68,68,0.15); --primary-lighter: rgba(239,68,68,0.08);
-    --gradient-primary: linear-gradient(135deg, #ef4444 0%, #f87171 100%);
-    --shadow-glow: 0 0 20px rgba(239,68,68,0.4);
-}
-body.theme-lime {
-    --primary: #84cc16; --primary-hover: #a3e635;
-    --primary-light: rgba(132,204,22,0.15); --primary-lighter: rgba(132,204,22,0.08);
-    --gradient-primary: linear-gradient(135deg, #84cc16 0%, #a3e635 100%);
-    --shadow-glow: 0 0 20px rgba(132,204,22,0.4);
-}
-body.theme-teal {
-    --primary: #14b8a6; --primary-hover: #2dd4bf;
-    --primary-light: rgba(20,184,166,0.15); --primary-lighter: rgba(20,184,166,0.08);
-    --gradient-primary: linear-gradient(135deg, #14b8a6 0%, #2dd4bf 100%);
-    --shadow-glow: 0 0 20px rgba(20,184,166,0.4);
-}
-body.theme-sky {
-    --primary: #0ea5e9; --primary-hover: #38bdf8;
-    --primary-light: rgba(14,165,233,0.15); --primary-lighter: rgba(14,165,233,0.08);
-    --gradient-primary: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
-    --shadow-glow: 0 0 20px rgba(14,165,233,0.4);
-}
-body.theme-indigo {
-    --primary: #6366f1; --primary-hover: #818cf8;
-    --primary-light: rgba(99,102,241,0.15); --primary-lighter: rgba(99,102,241,0.08);
-    --gradient-primary: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
-    --shadow-glow: 0 0 20px rgba(99,102,241,0.4);
-}
-body.theme-fuchsia {
-    --primary: #d946ef; --primary-hover: #e879f9;
-    --primary-light: rgba(217,70,239,0.15); --primary-lighter: rgba(217,70,239,0.08);
-    --gradient-primary: linear-gradient(135deg, #d946ef 0%, #e879f9 100%);
-    --shadow-glow: 0 0 20px rgba(217,70,239,0.4);
-}
-body.theme-navy {
-    --primary: #172554; --primary-hover: #1e3a8a;
-    --primary-light: rgba(23,37,84,0.15); --primary-lighter: rgba(23,37,84,0.08);
-    --gradient-primary: #172554;
-    --shadow-glow: 0 0 20px rgba(23,37,84,0.4);
-}
-
-/* Ad-blocking style rule added */
+/* Ad-blocking style rules */
 [data-ad], iframe[src*="ad"], .ad-container {
     display: none !important;
-}
-
-.theme-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-    margin: 0.5rem 0 1.25rem;
-}
-.theme-swatch {
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    border: 2px solid var(--border);
-    background: var(--sw);
-    cursor: pointer;
-    padding: 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-.theme-swatch:hover { transform: scale(1.12); }
-.theme-swatch.active {
-    border-color: var(--surface);
-    box-shadow: 0 0 0 2px var(--sw);
 }
 
 * {
@@ -213,16 +106,8 @@ body {
     margin: 0;
     padding: 0;
     background: var(--bg);
-    background-image:
-		linear-gradient(rgba(255, 255, 255, 0.05) 2px, transparent 2px),
-		linear-gradient(90deg, rgba(255, 255, 255, 0.05) 2px, transparent 2px);
-    background-size: 75px 75px;
-	z-index: -999;
     color: var(--text);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 header {
@@ -232,8 +117,6 @@ header {
     top: 0;
     z-index: 100;
     box-shadow: 0 6px 24px -6px color-mix(in srgb, var(--primary) 50%, transparent);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-    backdrop-filter: blur(20px);
 }
 
 .header-content {
@@ -246,27 +129,10 @@ header {
     gap: 1.25rem;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  max-width: 100%;
-  height: auto;
-  -webkit-mask-image: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 100%);
-  mask-image: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 100%);
-}
-
 .logo img {
   display: block;
   height: 40px;
   width: auto;
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
-  .logo img {
-    height: 34px;
-  }
 }
 
 .search-container {
@@ -276,102 +142,26 @@ header {
     gap: 0.75rem;
 }
 
-#searchBar {
-    flex: 1;
+#searchBar, #sortOptions, #filterOptions {
     padding: 0.8rem 1rem;
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: var(--radius);
     background: var(--glass);
-    backdrop-filter: blur(20px);
     color: var(--text);
     font-size: 15px;
     outline: none;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--shadow-sm);
 }
 
-#searchBar:focus {
-    background: var(--surface);
-    border-color: transparent;
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4), var(--shadow);
-    transform: translateY(-1px);
-    color: var(--text);
-}
-
-#searchBar::placeholder {
-    color: var(--text-muted);
-}
-
-#sortOptions,
-#filterOptions {
-    padding: 0.8rem 2.5rem 0.8rem 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    border-radius: var(--radius);
-    background: var(--glass);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    color: var(--text-muted);
-    font-size: 15px;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    min-width: 130px;
-    box-shadow: var(--shadow-sm);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-    background-repeat: no-repeat;
-    background-position: right 1rem center;
-    background-size: 1rem;
-}
-
-#sortOptions:hover,
-#filterOptions:hover {
-    background-color: var(--surface-hover);
-    border-color: rgba(255, 255, 255, 0.28);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow);
-    color: var(--text);
-}
-
-#sortOptions option,
-#filterOptions option {
-    background: var(--surface);
-    color: var(--text);
-}
-
-.control-buttons {
-    display: flex;
-    gap: 0.5rem;
-}
+#searchBar { flex: 1; }
 
 main {
     margin: 0 auto;
     padding: 2rem 1rem;
     padding-bottom: 6rem;
+    max-width: 1240px;
 }
 
-#zoneCount {
-    margin: 0 0 1.5rem;
-    font-size: 14px;
-    color: var(--text-muted);
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-#zoneCount::before {
-    content: '';
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background: var(--primary);
-}
-
-#container,
-#featuredZones {
+#container, #featuredZones {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -383,32 +173,14 @@ main {
     border-radius: var(--radius-lg);
     overflow: hidden;
     cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.4s ease;
     display: flex;
     flex-direction: column;
-    position: relative;
-    box-shadow: var(--shadow-sm);
 }
 
 .zone-item:hover {
     transform: translateY(-8px);
-    box-shadow: var(--shadow-xl);
     border-color: var(--primary);
-}
-
-.zone-item:hover::before {
-    opacity: 1;
-}
-
-.zone-item::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--primary-light);
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    pointer-events: none;
-    z-index: 1;
 }
 
 .zone-item img {
@@ -417,34 +189,22 @@ main {
     object-fit: cover;
     display: block;
     background: var(--border-light);
-    transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.zone-item:hover img {
-    filter: brightness(1.06);
 }
 
 .zone-item button {
     width: 100%;
-    margin: 0;
     padding: 0.45rem 0.75rem;
     background: transparent;
     color: var(--text);
     border: 0;
     border-top: 1px solid var(--border);
-    border-radius: 0;
     cursor: pointer;
     font-weight: 600;
     font-size: 13.5px;
-    line-height: 1.25;
-    text-align: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     height: 2.85rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    z-index: 2;
 }
 
 .zone-title-text {
@@ -453,12 +213,7 @@ main {
     -webkit-box-orient: vertical;
     overflow: hidden;
     width: 100%;
-}
-
-.zone-item:hover button {
-    color: var(--primary);
-    border-top-color: var(--primary);
-    background: transparent;
+    text-align: center;
 }
 
 #zoneViewer {
@@ -468,16 +223,6 @@ main {
     z-index: 1000;
     display: none;
     flex-direction: column;
-    animation: slideInUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@keyframes slideInUp {
-    from {
-        transform: translateY(100%);
-    }
-    to {
-        transform: translateY(0);
-    }
 }
 
 .zone-header {
@@ -487,36 +232,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: var(--shadow-lg);
-}
-
-.zone-title {
-    flex: 1;
-    min-width: 0;
-}
-
-#zoneName {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin: 0 0 0.25rem;
-    line-height: 1.3;
-}
-
-#zoneId {
-    display: none;
-}
-
-#zoneAuthor {
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    transition: all 0.2s ease;
-    font-weight: 500;
-}
-
-#zoneAuthor:hover {
-    color: white;
-    text-decoration: underline;
 }
 
 .zone-controls {
@@ -524,24 +239,13 @@ main {
     gap: 0.75rem;
 }
 
-.zone-controls button {
+.zone-controls button, .zone-header button {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: white;
-    padding: 0.625rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: var(--radius);
     cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    backdrop-filter: blur(20px);
-}
-
-.zone-controls button:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.5);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow);
 }
 
 #zoneFrame {
@@ -551,122 +255,10 @@ main {
     height: 100%;
 }
 
-#popupOverlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(8px);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 2000;
-    padding: 1rem;
-    animation: fadeIn 0.3s ease;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.popup {
-    background: var(--surface);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-xl);
-    width: 100%;
-    max-width: 520px;
-    max-height: 80vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid var(--border);
-    animation: slideInScale 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@keyframes slideInScale {
-    from {
-        transform: scale(0.9) translateY(20px);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1) translateY(0);
-        opacity: 1;
-    }
-}
-
-.popup-header {
-    background: var(--gradient-primary);
-    color: white;
-    padding: 1.25rem 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#popupTitle {
-    margin: 0;
-    font-size: 1.25rem;
-    font-weight: 700;
-}
-
-#popupClose {
-    background: rgba(255, 255, 255, 0.1);
-    border: 0;
-    color: white;
-    font-size: 1.25rem;
-    cursor: pointer;
-    padding: 0.5rem;
-    border-radius: var(--radius);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    line-height: 1;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(20px);
-}
-
-#popupClose:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: scale(1.1);
-}
-
-#popupBody {
-    padding: 1.5rem;
-    overflow-y: auto;
-    color: var(--text);
-}
-
-#popupBody input[type="text"],
-#popupBody input[type="file"] {
-    width: 100%;
-    padding: 0.875rem 1rem;
-    margin-bottom: 1.25rem;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--bg-secondary);
-    color: var(--text);
-    font-size: 15px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    outline: none;
-}
-
-#popupBody input[type="text"]:focus,
-#popupBody input[type="file"]:focus {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 12%, transparent);
-    transform: translateY(-1px);
-}
-
 footer {
     background: var(--bg-secondary);
     border-top: 1px solid var(--border);
-    padding: 1rem 1rem;
+    padding: 1rem;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -686,169 +278,27 @@ footer {
     color: var(--primary);
     text-decoration: none;
     font-weight: 600;
-    font-size: 15px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 0.5rem 1rem;
-    border-radius: var(--radius);
 }
 
-.footer-links a:hover {
-    color: var(--primary-hover);
-    background: var(--primary-light);
-    transform: translateY(-1px);
-}
-
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem;
-    }
-
-    .search-container {
-        width: 100%;
-        max-width: none;
-    }
-
-    main {
-        padding: 1.5rem 1rem;
-    }
-
-    #container,
-    #featuredZones {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        gap: 1.25rem;
-    }
-
-    .zone-item button {
-        padding: 0.3rem 0.6rem;
-        height: 2.4rem;
-        font-size: 12.5px;
-    }
-
-    .footer-links {
-        gap: 1.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    #container,
-    #featuredZones {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-        gap: 1rem;
-    }
-
-    .popup {
-        margin: 0.5rem;
-    }
-
-    .zone-item:hover {
-        transform: translateY(-10px);
-    }
-}
-
-.control-button img {
-    transition: transform 0.4s ease;
-    width: 24px;
-    height: 24px;
-}
-
-.control-button:hover img {
-    transform: rotate(40deg);
-}
-
-.control-button:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
-    background: rgba(255, 255, 255, 0.22);
-    border-color: rgba(255, 255, 255, 0.35);
-}
-.control-button:active {
-    transform: translateY(0);
-    box-shadow: var(--shadow-sm);
-}
-
-.control-buttons button {
+.control-button {
     background: rgba(255, 255, 255, 0.12);
     border: 1px solid rgba(255, 255, 255, 0.16);
-    color: white;
     cursor: pointer;
-    padding: 0;
     width: 44px;
     height: 44px;
     border-radius: var(--radius);
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(20px);
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.settings-button {
-    background: var(--gradient-primary);
-    color: white;
-    border: 0;
-    padding: 0.875rem 1.5rem;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: var(--radius);
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--shadow-sm);
-    min-width: 200px;
-    width: 100%;
-    text-align: center;
 }
 
-.settings-button:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
-}
-
-.settings-button:active {
-    transform: translateY(0);
-    box-shadow: var(--shadow-sm);
-}
-
-.info-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    margin-left: 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.control-button img {
     width: 24px;
     height: 24px;
-    border-radius: 50%;
-    transition: background-color 0.2s, transform 0.2s;
-    color: inherit;
-    vertical-align: middle;
-}
-
-.info-button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    transform: scale(1.1);
-}
-
-.info-button:active {
-    transform: scale(0.95);
-}
-
-.info-button svg {
-    display: block;
 }
     </style>
-    <link id="gnManifest" rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#fb2651">
-    <script>
-        try {
-            document.getElementById('gnManifest').href = new URL('manifest.json', location.href).href;
-        } catch (e) {}
-    </script>
 </head>
-<body class="dark-mode">
-    <!-- Ad container removed -->
+<body class="dark-mode" onload="listZones()">
     <header>
         <div class="header-content">
             <div class="logo"><img src="gn-mathtitle.png" alt="Logo"></div>
@@ -858,7 +308,7 @@ footer {
                     <option value="name">Name</option>
                     <option value="id">ID (Date)</option>
                 </select>
-                <select id="filterOptions" onchange="filterZones2()">
+                <select id="filterOptions" onchange="filterZones()">
                     <option value="none">Tag</option>
                 </select>
             </div>
@@ -866,22 +316,17 @@ footer {
                 <button id="refresh" class="control-button" title="Refresh all the zones" onclick="listZones()">
                     <img src="refresh-icon.png" alt="refresh">
                 </button>
-
-                <button id="settings" class="control-button" title="Settings!">
-                    <img src="setting.png" alt="settings">
-                </button>
             </div>
         </div>
     </header>
-	<main>
-    <br>
+    <main>
         <details id="featuredZonesWrapper" open>
-            <summary id="allZonesSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">Featured Zones</summary>
+            <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">Featured Zones</summary>
             <div id="featuredZones" class="zone-container"></div>
         </details>
         <br><hr><br>
         <details id="allZonesWrapper" open>
-            <summary id="allSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">All Zones</summary>
+            <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">All Zones</summary>
             <div id="container">Loading...</div>
         </details>
     </main>
@@ -890,46 +335,21 @@ footer {
         <div class="zone-header">
             <div class="zone-title">
                 <h2 id="zoneName">zone</h2>
-                <button class="info-button" onclick="showZoneInfo()" title="Zone Information">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
-                    </svg>
-                </button>
-                <span id="zoneId" style="display: none;"></span>
                 <a id="zoneAuthor" href="#" target="_blank">by Author</a>
             </div>
             <div class="zone-controls">
                 <button onclick="fullscreenZone()">Fullscreen</button>
-                <button onclick="aboutBlank()">Open in New Tab</button>
-                <button onclick="downloadZone()">Download</button>
                 <button onclick="closeZone()">Close</button>
             </div>
         </div>
         <iframe id="zoneFrame"></iframe>
     </div>
 
-    <div id="popupOverlay">
-        <div class="popup">
-            <div class="popup-header">
-                <h3 id="popupTitle">Title</h3>
-                <button id="popupClose" onclick="closePopup()">×</button>
-            </div>
-            <div id="popupBody">
-                Content will be here
-            </div>
-        </div>
-    </div>
-
     <footer>
         <div class="footer-links">
-            <a href="#" onclick="loadDMCA(); return false;">DMCA</a>
-            <a href="#" onclick="showContact(); return false;">Contact</a>
-            <a href="#" onclick="loadPrivacy(); return false;">Privacy Policy</a>
-            <a href="javascript:saveData()">Export Data</a>
-            <a href="#" onclick="document.getElementById('importData').click(); return false;">Import Data</a>
-            <input type="file" id="importData" style="display: none;" onchange="loadData(event)">
+            <a href="#">DMCA</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
         </div>
     </footer>
 
@@ -943,107 +363,29 @@ const filterOptions = document.getElementById('filterOptions');
 let zonesURL = "https://cdn.jsdelivr.net/gh/freebuisness/assets@main/zones.json";
 const coverURL = "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/";
 const htmlURL = "https://cdn.jsdelivr.net/gh/freebuisness/html@main/";
+
 function zoneURL(u) {
     return (u + "").replace("{COVER_URL}", coverURL).replace("{HTML_URL}", htmlURL);
 }
+
 let zones = [];
 const featuredContainer = document.getElementById('featuredZones');
+
 function toTitleCase(str) {
-  return str.replace(
-    /\w\S*/g,
-    text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
-  );
+  return str.replace(/\w\S*/g, text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase());
 }
+
 async function listZones() {
     try {
-        const response = await fetch(zonesURL+"?t="+Date.now());
-        const json = await response.json();
-        zones = json;
-        zones[0].featured = true;
+        const response = await fetch(zonesURL + "?t=" + Date.now());
+        zones = await response.json();
+        if(zones.length > 0) zones[0].featured = true;
         sortZones();
-        try {
-        const search = new URLSearchParams(window.location.search);
-        const id = search.get('id');
-        const embed = window.location.hash.includes("embed");
-        if (id) {
-            const zone = zones.find(zone => zone.id + '' == id + '');
-            if (zone) {
-                if (embed) {
-                    if (zone.url.startsWith("http")) {
-                        window.open(zone.url, "_blank");
-                    } else {
-                        const url = zoneURL(zone.url);
-                        fetch(url+"?t="+Date.now()).then(response => response.text()).then(html => {
-                            document.documentElement.innerHTML = injectZoneBase(html, url);
-                            const popup = document.createElement("div");
-                            popup.style.position = "fixed";
-                            popup.style.bottom = "20px";
-                            popup.style.right = "20px";
-                            popup.style.backgroundColor = "#cce5ff";
-                            popup.style.color = "#004085";
-                            popup.style.padding = "10px";
-                            popup.style.border = "1px solid #b8daff";
-                            popup.style.borderRadius = "5px";
-                            popup.style.boxShadow = "0px 0px 10px rgba(0,0,0,0.1)";
-                            popup.style.fontFamily = "Arial, sans-serif";
-                            
-                            popup.innerHTML = `Play more games at <a href="https://gn-math.dev" target="_blank" style="color:#004085; font-weight:bold;">https://gn-math.dev</a>!`;
-                            
-                            const closeBtn = document.createElement("button");
-                            closeBtn.innerText = "?";
-                            closeBtn.style.marginLeft = "10px";
-                            closeBtn.style.background = "none";
-                            closeBtn.style.border = "none";
-                            closeBtn.style.cursor = "pointer";
-                            closeBtn.style.color = "#004085";
-                            closeBtn.style.fontWeight = "bold";
-                            
-                            closeBtn.onclick = () => popup.remove();
-                            popup.appendChild(closeBtn);
-                            document.body.appendChild(popup);
-                            document.documentElement.querySelectorAll('script').forEach(oldScript => {
-                                const newScript = document.createElement('script');
-                                if (oldScript.src) {
-                                    newScript.src = oldScript.src;
-                                } else {
-                                    newScript.textContent = oldScript.textContent;
-                                }
-                                document.body.appendChild(newScript);
-                            });
-                        }).catch(error => alert("Failed to load zone: " + error));
-                    }
-                } else {
-                    openZone(zone);
-                }
-            }
-        }
-        } catch(error){}
-        let alltags = [];
-        for (const obj of json) {
-            if (Array.isArray(obj.special)) {
-                alltags.push(...obj.special);
-            }
-        }
-
-        alltags = [...new Set(alltags)];
-        let filteroption = document.getElementById("filterOptions");
-        if (filteroption && filteroption.children.length > 1) {
-            while (filteroption.children.length > 1) {
-                filteroption.removeChild(filteroption.lastElementChild);
-            }
-        }
-        for (const tag of alltags) {
-            const opt = document.createElement("option");
-            opt.value = tag;
-            opt.textContent = toTitleCase(tag);
-            filteroption.appendChild(opt);
-        }
     } catch (error) {
         console.error(error);
         container.innerHTML = `Error loading zones: ${error}`;
     }
 }
-
 
 function sortZones() {
     const sortBy = sortOptions.value;
@@ -1052,34 +394,78 @@ function sortZones() {
     } else if (sortBy === 'id') {
         zones.sort((a, b) => a.id - b.id);
     }
-    zones.sort((a, b) => (a.id === -1 ? -1 : b.id === -1 ? 1 : 0));
-    if (featuredContainer.innerHTML === "") {
-        const featured = zones.filter(z => z.featured);
-        displayFeaturedZones(featured);
-    }
+    const featured = zones.filter(z => z.featured);
+    displayFeaturedZones(featured);
     displayZones(zones);
 }
 
 function displayFeaturedZones(featuredZones) {
     featuredContainer.innerHTML = "";
-    featuredZones.forEach((file, index) => {
+    featuredZones.forEach((file) => {
         const zoneItem = document.createElement("div");
         zoneItem.className = "zone-item";
         zoneItem.onclick = () => openZone(file);
+        
         const img = document.createElement("img");
-        img.dataset.src = zoneURL(file.cover);
+        img.src = zoneURL(file.cover);
         img.alt = file.name;
-        img.loading = "lazy";
-        img.className = "lazy-zone-img";
         zoneItem.appendChild(img);
+
         const button = document.createElement("button");
         const label = document.createElement("span");
         label.className = "zone-title-text";
         label.textContent = file.name;
         button.appendChild(label);
         zoneItem.appendChild(button);
+        
         featuredContainer.appendChild(zoneItem);
     });
+}
+
+function displayZones(zonesToDisplay) {
+    container.innerHTML = "";
+    zonesToDisplay.forEach((file) => {
+        const zoneItem = document.createElement("div");
+        zoneItem.className = "zone-item";
+        zoneItem.onclick = () => openZone(file);
+        
+        const img = document.createElement("img");
+        img.src = zoneURL(file.cover);
+        img.alt = file.name;
+        zoneItem.appendChild(img);
+
+        const button = document.createElement("button");
+        const label = document.createElement("span");
+        label.className = "zone-title-text";
+        label.textContent = file.name;
+        button.appendChild(label);
+        zoneItem.appendChild(button);
+        
+        container.appendChild(zoneItem);
+    });
+}
+
+function filterZones() {
+    const query = searchBar.value.toLowerCase();
+    const filtered = zones.filter(z => z.name.toLowerCase().includes(query));
+    displayZones(filtered);
+}
+
+function openZone(file) {
+    document.getElementById('zoneName').textContent = file.name;
+    zoneFrame.src = zoneURL(file.url);
+    zoneViewer.style.display = 'flex';
+}
+
+function closeZone() {
+    zoneViewer.style.display = 'none';
+    zoneFrame.src = '';
+}
+
+function fullscreenZone() {
+    if (zoneFrame.requestFullscreen) {
+        zoneFrame.requestFullscreen();
+    }
 }
     </script>
 </body>
